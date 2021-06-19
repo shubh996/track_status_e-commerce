@@ -1,0 +1,298 @@
+html, body {
+  
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Open Sans, Helvetica Neue, sans-serif
+}
+body {
+  background: #fff;
+  opacity: 5555;
+}
+section#timeline {
+  width: 95%;
+  margin:5px
+  
+}
+section#timeline:before {
+  content: '';
+  display: block;
+  position: absolute;
+
+
+  
+  width: 0px;
+  height: 100%;
+  background:#eee;
+}
+section#timeline article {
+  width: 96%;
+  margin: 0 0 25px 25px;
+  position: relative;
+}
+section#timeline article:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+section#timeline article div.inner {
+  width: 85%;
+  float:right;
+  margin: 5px 0 0 0;
+  border-radius:0px 6px;
+}
+section#timeline article div.inner span.date {
+  display: block;
+  width: 70px;
+  height: 40px;
+  padding: 5px 5px;
+  position: absolute;
+  top: 0;
+  left: 0%;
+  margin: -1.95px 0 0 -30px;
+}
+section#timeline article div.inner span.date span {
+  display: block;
+  text-align: center;
+  background-color: #262626;
+  color: #fff;
+  padding: 5px 5px;
+  margin-right: 10px;
+}
+
+section#timeline1 article div.inner span.date span {
+  display: block;
+  text-align: center;
+  background-color: #fff;
+  color: #fff;
+  padding: 5px 5px;
+  margin-right: 10px;
+}
+
+section#timeline article div.inner span.date span.day {
+  font-size: 45px;
+  font-weight: 200;
+  margin-top: 2.5px;
+}
+section#timeline article div.inner span.date span.month {
+  font-size: 15px;
+  font-weight: 400;
+  margin-top: -10px;
+  padding-bottom: 10px;
+}
+section#timeline article div.inner span.date span.year {
+  font-size: 15px;
+  font-weight: 200;
+}
+section#timeline article div.inner h2 {
+  padding: 15px;
+  margin: 0;
+  color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+  border-radius: 6px 6px 0 0;
+  position: relative;
+  font-weight: 500;
+}
+section#timeline article div.inner h2:after {
+  content: '';
+  position: absolute;
+  top: 20px;
+  left: -5px;
+  	width: 10px; 
+	  height: 10px;
+  -webkit-transform: rotate(-45deg);
+}
+section#timeline article div.inner p {
+  padding: 15px;
+  margin: 0;
+  font-size: 14px;
+  background: #eee;
+  color: #000;
+  border-radius: 0 0 6px 6px;
+  flex-direction:row;
+}
+section#timeline article:nth-child(2n+2) div.inner {
+  float: right;
+}
+section#timeline article:nth-child(2n+2) div.inner h2:after {
+  left: -5px;
+}
+section#timeline article:nth-child(1) div.inner h2 {
+  background: #262626;
+  color:#fff
+}
+section#timeline article:nth-child(1) div.inner h2:after {
+  background: #262626;
+}
+section#timeline article:nth-child(2) div.inner h2 {
+  background: #2ecc71;
+}
+section#timeline article:nth-child(2) div.inner h2:after {
+  background: #2ecc71;
+}
+section#timeline article:nth-child(3) div.inner h2 {
+  background: #e67e22;
+}
+section#timeline article:nth-child(3) div.inner h2:after {
+  background: #e67e22;
+}
+section#timeline article:nth-child(4) div.inner h2 {
+  background: #1abc9c;
+}
+section#timeline article:nth-child(4) div.inner h2:after {
+  background: #1abc9c;
+}
+section#timeline article:nth-child(5) div.inner h2 {
+  background: #9b59b6;
+}
+section#timeline article:nth-child(5) div.inner h2:after {
+  background: #9b59b6;
+}
+
+
+
+
+section#timelineby {
+  width: 95%;
+  margin:5px
+  
+}
+section#timelineby:before {
+  content: '';
+  display: block;
+  position: absolute;
+
+
+  
+  width: 0px;
+  height: 100%;
+  background:#eee;
+}
+section#timelineby article {
+  width: 96%;
+  margin: 0 0 25px 25px;
+  position: relative;
+}
+section#timelineby article:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+section#timelineby article div.innerby {
+  width: 85%;
+  float:right;
+  margin: 5px 0 0 0;
+  border-radius:0px 6px;
+}
+section#timelineby article div.innerby span.dateby {
+  display: block;
+  width: 70px;
+  height: 40px;
+  padding: 5px 5px;
+  position: absolute;
+  top: 0;
+  left: 0%;
+  margin: -1.95px 0 0 -30px;
+}
+section#timelineby article div.innerby span.dateby span {
+  display: block;
+  text-align: center;
+  background-color: #B22222;
+  color: #fff;
+  padding: 5px 5px;
+  margin-right: 10px;
+}
+
+section#timelineby1 article div.innerby span.dateby span {
+  display: block;
+  text-align: center;
+  background-color: #fff;
+  color: #fff;
+  padding: 5px 5px;
+  margin-right: 10px;
+}
+
+section#timelineby article div.innerby span.dateby span.dayby {
+  font-size: 45px;
+  font-weight: 200;
+  margin-top: 2.5px;
+}
+section#timelineby article div.innerby span.dateby span.monthby {
+  font-size: 15px;
+  font-weight: 400;
+  margin-top: -10px;
+  padding-bottom: 10px;
+}
+section#timelineby article div.innerby span.dateby span.year {
+  font-size: 15px;
+  font-weight: 200;
+}
+section#timelineby article div.innerby h2 {
+  padding: 15px;
+  margin: 0;
+  color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+  border-radius: 6px 6px 0 0;
+  position: relative;
+  font-weight: 500;
+}
+section#timelineby article div.innerby h2:after {
+  content: '';
+  position: absolute;
+  top: 20px;
+  left: -5px;
+  	width: 10px; 
+	  height: 10px;
+  -webkit-transform: rotate(-45deg);
+}
+section#timelineby article div.innerby p {
+  padding: 15px;
+  margin: 0;
+  font-size: 14px;
+  background: #eee;
+  color: #000;
+  border-radius: 0 0 6px 6px;
+  flex-direction:row;
+}
+section#timelineby article:nth-child(2n+2) div.innerby {
+  float: right;
+}
+section#timelineby article:nth-child(2n+2) div.innerby h2:after {
+  left: -5px;
+}
+section#timelineby article:nth-child(1) div.innerby h2 {
+  background: #B22222;
+  color:#fff
+}
+section#timelineby article:nth-child(1) div.innerby h2:after {
+  background: #B22222;
+}
+section#timelineby article:nth-child(2) div.innerby h2 {
+  background: #2ecc71;
+}
+section#timelineby article:nth-child(2) div.innerby h2:after {
+  background: #2ecc71;
+}
+section#timelineby article:nth-child(3) div.innerby h2 {
+  background: #e67e22;
+}
+section#timelineby article:nth-child(3) div.innerby h2:after {
+  background: #e67e22;
+}
+section#timelineby article:nth-child(4) div.innerby h2 {
+  background: #1abc9c;
+}
+section#timelineby article:nth-child(4) div.innerby h2:after {
+  background: #1abc9c;
+}
+section#timelineby article:nth-child(5) div.innerby h2 {
+  background: #9b59b6;
+}
+section#timelineby article:nth-child(5) div.innerby h2:after {
+  background: #9b59b6;
+}
+
+
+
+
+
